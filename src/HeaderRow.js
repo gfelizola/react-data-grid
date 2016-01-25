@@ -1,5 +1,5 @@
 const React             = require('react');
-const shallowEqual      = require('react/lib//shallowEqual');
+const shallowEqual      = require('lodash').isEqual;
 const HeaderCell        = require('./HeaderCell');
 const getScrollbarSize  = require('./getScrollbarSize');
 const ExcelColumn  = require('./addons/grids/ExcelColumn');

@@ -1,5 +1,5 @@
 const React               = require('react');
-const emptyFunction       = require('react/lib/emptyFunction');
+const emptyFunction       = require('./emptyFunction');
 const shallowCloneObject  = require('./shallowCloneObject');
 
 let contextTypes = {

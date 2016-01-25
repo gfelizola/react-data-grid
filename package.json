@@ -1,8 +1,8 @@
 {
-  "name": "react-data-grid",
-  "version": "0.13.34",
+  "name": "react-data-grid-express",
+  "version": "0.13.35",
   "description": "Data grid for React",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "gulp test",
     "prepublish": "gulp dist --release true",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/adazzle/react-data-grid.git"
+    "url": "git://github.com/gfelizola/react-data-grid.git"
   },
   "keywords": [
     "react",
@@ -19,7 +19,7 @@
     "react-component"
   ],
   "peerDependencies": {
-    "react": "~0.13.3"
+    "react": "^0.14.5"
   },
   "dependencies": {
     "classnames": "^1.2.0",
@@ -84,10 +84,10 @@
     "vinyl-source-stream": "^0.1.1",
     "webpack": "^1.7.2"
   },
-  "author": "adazzle",
+  "author": "gfelizola",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adazzle/react-data-grid/issues"
+    "url": "https://github.com/gfelizola/react-data-grid/issues"
   },
-  "homepage": "https://github.com/adazzle/react-data-grid"
+  "homepage": "https://github.com/gfelizola/react-data-grid"
 }
